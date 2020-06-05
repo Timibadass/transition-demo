@@ -1,6 +1,6 @@
 <template>
   <div>
-    <transition name="fade">
+    <transition name="fade" appear mode="in-out">
       <p v-if="show" key="visible">Now you see me!</p>
       <p v-else key="notVisible">Now you don't!</p>
     </transition>
