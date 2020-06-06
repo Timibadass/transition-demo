@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <Index />
+    <listTransition />
   </div>
 </template>
 
 <script>
 import Index from "./components/index.vue";
+import listTransition from "./components/listTransition.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Index
+    Index,
+    listTransition
   }
-}
+};
 </script>
 
 <style>
