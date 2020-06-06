@@ -20,7 +20,8 @@
           GitHub
         </a>
       </div>
-      <nuxt-link to="/transition">next page</nuxt-link>
+      <nuxt-link to="/transition">transition page</nuxt-link>
+      <nuxt-link to="/pageTransition">pageTransition page</nuxt-link>
     </div>
   </div>
 </template>
