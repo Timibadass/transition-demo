@@ -4,7 +4,7 @@
       <p v-if="show" key="visible">Now you see me!</p>
       <p v-else key="notVisible">Now you don't!</p>
     </transition>
-    <button @click="transitionMe">click me</button>
+    <button @click="show = !show">click me</button>
   </div>
 </template>
 
@@ -14,11 +14,6 @@ export default {
     return {
       show: true
     };
-  },
-  methods: {
-    transitionMe() {
-      this.show = !this.show;
-    }
   }
 };
 </script>
